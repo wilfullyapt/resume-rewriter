@@ -16,4 +16,7 @@ There are 4 fields to use:
 1. Clone the repo: `git clone https://github.com`
 2. `cd` and `uv sync` to setup: `cd resume-rewriter`
 3. Copy and update the environment API key: `cp .env-example .env`
-4. Run the app: `uv run streamlit run app.py --server.port 5000`
+4. Run the app: `uv run python -m streamlit run app.py --server.port 5000`
+
+## Eample
+![example interface](images/example.png)
